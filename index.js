@@ -22,3 +22,4 @@ solveRectangles(2, 4);
 solveRectangles(3, 5);
 solveRectangles(0, 5);
 solveRectangles(-3, 5);
+solveRectangles(4, 5);
