@@ -1,11 +1,13 @@
-var rect = {
-    perimeter: function(x,y){
-        return 2*(x+y);
-    },
-    area: function(x,y){
-        return x*y;
-    }
-};
+// var rect = {
+//     perimeter: function(x,y){
+//         return 2*(x+y);
+//     },
+//     area: function(x,y){
+//         return x*y;
+//     }
+// };
+
+var rect = require('./rectangle');
 
 function solveRectangles(l, b){
     console.log("solving for rectangle with l = " + l + " and b = "+b );
